@@ -1,0 +1,75 @@
+# =========================
+# Python / YOLOv8 Project
+# =========================
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+
+# PyTorch cache and checkpoints
+*.pt
+*.pth
+*.ckpt
+runs/
+weights/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Training outputs
+*.log
+*.tmp
+*.json
+*.csv
+*.yaml
+*.yml
+
+# Labeling tool (labelImg)
+*.pascal
+*.xml
+
+# Dataset cache
+datasets/
+data/
+labels/
+images/
+*.cache
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Backup / Temp
+*.bak
+*.swp
+*.swo
+*.orig
+*.tmp
+~$*
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Node / Web if you have frontend
+node_modules/
+dist/
+build/
+package-lock.json
+yarn.lock
